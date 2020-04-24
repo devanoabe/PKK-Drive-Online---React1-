@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/11.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.main-header{
+    text-align: center;
+    transition: 0.5s;
+    
+}
+.main-header:hover{
+    -webkit-box-shadow: 0px 0px 12px 10px rgba(254,138,77,1);
+-moz-box-shadow: 0px 0px 12px 10px rgba(254,138,77,1);
+box-shadow: 0px 0px 12px 10px rgba(254,138,77,1);
+}
+
+.main-header h1{
+    color: #fe8a4d;
+    margin: 10px;
+    font-family: 'Leckerli One', cursive;
+    font-size: 44px;
+}
+.main-header hr{
+    width: 25%;
+    margin: auto;
+    padding: 2.5px;
+    background: #fe8a4d;
+}
+.main-header h3{
+    color: white;
+    margin: 10px;
+    font-family: "Futura Md BT";
+    margin-bottom: 45px;
+    font-size: 25px;
+}
+
+.main-header input{
+    width: 85%;
+    padding: 2px;
+    margin: 2px;
+    font-family: "Futura Md BT";
+    border: none;
+    color: white;
+    border-bottom: 1px solid #fe8a4d;
+    font-size: 15px;
+    background: transparent;
+    outline: none;
+}
+
+.main-header button{
+    margin-top: 45px;
+    padding: 3px 6rem;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Futura Md BT";
+    background: #fe8a4d;
+    color: black;
+    border: none;
+}

@@ -1,0 +1,271 @@
+.body .kanan {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 58%;
+    height: 100%;
+}
+
+.body .kiri{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 668px;
+  height: 798px;
+  background: url("../images/tra.jpg")no-repeat;
+  background-size: cover;
+  background-position:center ;
+}
+
+.body .kanan h1{
+    font-size: 90px;
+    font-family: 'Paytone One', sans-serif;
+    background: -webkit-linear-gradient(to bottom, #ffbd4c, rgb(248, 0, 33));
+	background: linear-gradient(to bottom, #ffbd4c, rgb(248, 0, 33));
+  -webkit-background-clip: text;
+  padding-left: 50px;
+	-webkit-text-fill-color: transparent;
+}
+
+.body .kanan h3{
+    font-size: 32px;
+    padding-left: 50px;
+    font-family: "Futura Md BT";
+    
+}
+
+.body .kanan label{
+	display:block;
+	margin-top: 24px;
+}
+
+.body .kanan span{
+    font-family: "Futura Md BT";
+    float: left;
+  width: 100px;
+  margin-left: 45px;
+	color: rgb(0, 0, 0);
+    font-size: 19px;
+    padding: 10px;
+}
+
+.body .kanan  input{
+    border-radius: 25px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 20px;
+	border: 1px solid rgb(255, 255, 255);
+    width: 67%;
+    padding: 10px;
+	background: rgb(243, 243, 243);
+}
+
+.body .kanan label span1{
+    font-family: "Futura Md BT";
+    float: left;
+	width: 100px;
+	color: rgb(0, 0, 0);
+    font-size: 19px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+
+.body .kanan label .boxq{
+     margin-left: 50px; 
+}
+
+.body .kanan  label .boxq select {
+    background-color:rgb(243, 243, 243);
+    color: black;
+    padding: 8px;
+    padding-left: 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 20px;
+    width: 320px;
+    border: none;
+    /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2); */
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    outline: none;
+  }
+  
+  .body .kanan .boxq::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .body .kanan .boxq:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .body .kanan .boxq select option {
+    padding: 30px;
+  }
+
+.body .kanan  .boxq select {
+    background-color:rgb(243, 243, 243);
+    color: black;
+    padding: 8px;
+    padding-left: 15px;
+    border-radius: 25px;
+    margin-left: 310px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 20px;
+    width: 150px;
+    border: none;
+    /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2); */
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    outline: none;
+  }
+
+  
+  .body .kanan  label .box select {
+    background-color:rgb(243, 243, 243);
+    color: black;
+    padding: 8px;
+    padding-left: 15px;
+    border-radius: 25px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 20px;
+    width: 150px;
+    border: none;
+    /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2); */
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    outline: none;
+  }
+  
+  .body .kanan label .box::before {
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .body .kanan label .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .body .kanan label .box select option {
+    padding: 30px;
+  }
+
+  
+
+.body .kanan .huruff h5{
+    font-family: "Futura Md BT";
+	width: 100px;
+	color: rgb(0, 0, 0);
+    font-size: 19px;
+    padding-left: 55px;
+}
+
+.body .kanan .container {
+    display: block;
+    position: relative;
+    padding-left: 105px;
+    cursor: pointer;
+    font-size: 19px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .body .kanan .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .body .kanan .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    margin-left: 55px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .body .kanan .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .body .kanan .container input:checked ~ .checkmark {
+    background-color: #fe8a4d;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .body .kanan .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .body .kanan .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .body .kanan .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .body .kanan button{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 7px 6.5rem;
+    font-size: 19px;
+    width: 81%;
+    font-weight: bold;
+    font-family: "Futura Md BT";
+    background: #fe8a4d;
+    color: rgb(255, 255, 255);
+    border: none;
+}

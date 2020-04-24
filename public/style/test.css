@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  [class*="col-"] { float: left; padding: 15px; }
+  
+  /* For Smartphone */
+  [class*="col-"] { width: 100%; }
+  
+  @media only screen and (min-width: 600px) {
+    /* for tablets */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;} 
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* for tablets */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header{
+    background: url("../images/1.jpg") no-repeat;
+    background-size: cover;
+    height: 1100px;
+    text-align: center;
+  }
+
+  .header .tentang{
+    background-color: black;
+    margin-left: -20px;   
+    margin-top: 920px;
+    background: url("../images/why.png") no-repeat;
+    background-size: cover;
+    height: 782px;
+    width: 1528px;
+  }
+
+  .header .tentang .kiri h1{
+    font-size: 90px;
+    padding-top: 100px;
+   color: white;
+   text-align: left; 
+   padding-left: 40px;
+   font-family: 'Paytone One', sans-serif;
+  }
+
+  .header .tentang .kiri h2{
+  font-size: 90px;
+   color: black;
+   text-align: left; 
+   padding-left: 40px;
+   font-family: 'Paytone One', sans-serif;
+   text-shadow: #ff0000 0px 0px 3px,   #ff0000  0px 0px 3px,   #ff0000  0px 0px 3px, #ff0000  0px 0px 3px,   #ff0000  0px 0px 3px,   #ff0000  0px 0px 3px;
+  }
+
+  .header .tentang .kiri p{
+    font-size: 28px;
+    color: white;
+    text-align: left; 
+    padding-left: 40px;
+    padding-top: 60px;
+    font-family: 'Dosis', sans-serif;
+  }
+
+
+  .header .kelebihan{
+    margin-left: -20px;
+    padding-top: 80px;
+    background-color: rgb(0, 0, 0);
+    height: 1482px;
+    width: 1528px;
+  }
+
+  .header .kelebihan h1{
+    color: white;
+    text-align: center;
+    font-size: 290px;
+    letter-spacing: -2px;
+    font-family: "Futura Md BT";  
+  }
+
+  .header .kelebihan h2{
+    font-size: 65px;
+    margin-top: -220px;
+     /* text-shadow: #000000 0px 0px 3px,   #000000 0px 0px 3px,   #000000 0px 0px 3px, #000000 0px 0px 3px,   #000000 0px 0px 3px,   #000000 0px 0px 3px; */
+    color: #ffbd4c;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+  }
+
+  .header .kelebihan .huruf1{
+    font-size: 69px;
+    font-family: "Futura Md BT";
+    color: white;
+    margin-top: 280px;
+    text-align: left;
+    margin-left: 42px;
+    line-height: 55px;
+  }
+
+  .header .kelebihan .huruf2{
+    font-size: 69px;
+    font-family: "Futura Md BT";
+    color: white;
+    margin-top: -108px;
+    line-height: 55px;
+    margin-left: 12px;
+  }
+
+  .header .kelebihan .huruf3{
+    font-size: 69px;
+    font-family: "Futura Md BT";
+    color: white;
+    margin-top: -108px;
+    line-height: 55px;
+    margin-right: 42px;
+    text-align: right;
+  }
+
+  .header .kelebihan .pertama{
+    background: url("../images/kiri2.jpg") no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 600px;
+    margin-left: 40px;
+    margin-top: 12px;
+  }
+
+
+  .header .kelebihan .kedua{
+    background: url("../images/tengah2.jpg") no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 600px;
+    margin-left: 535px;
+    margin-top: -600px
+  }
+
+  .header .kelebihan .ketiga{
+    background: url("../images/kanan.jpg") no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 600px;
+    margin-left: 1025px;
+    margin-top: -600px
+  }
+
+  .header .kelebihan .satu h1{
+    font-size: 49px;
+    font-family: 'Rock Salt', cursive;
+    color: #ff0000;
+    text-align: left;
+    margin-left: 210px;
+    margin-top: -21px;
+  }
+
+  .header .kelebihan .dua h1{
+    font-size: 49px;
+    font-family: 'Rock Salt', cursive;
+    color: #ff0000;
+    margin-top: -62px;
+  }
+
+  .header .kelebihan .tiga h1{
+    font-size: 49px;
+    font-family: 'Rock Salt', cursive;
+    color: #ff0000;
+    text-align: right;
+    margin-top: -62px;
+    margin-right: 200px;
+  }
+
+  .header .bingung{
+    background: url("../images/bg1.gif") no-repeat;
+    background-size: cover;
+    height: 782px;
+    width: 1528px;
+    margin-left: -20px;   
+    margin-top: -100px;
+  }
+
+  .header .bingung .kiri{
+    background: url("../images/ca.gif") no-repeat;
+    width: 80%;
+    height: 100%;
+    margin-top: -220px;
+    margin-left: 210px;
+  }
+
+  .header .bingung .kanan h1{
+    font-family: 'Paytone One', sans-serif;     
+    color: rgb(255, 0, 0);
+    padding-top: 250px;
+    padding-left: 280px;
+    font-size: 75px;
+  }
+
+  .header .bingung .kanan button{
+    margin-top: 45px;
+    padding: 3px 2rem;
+    text-align: right;
+    margin-top: -120px;
+    margin-left: 780px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Futura Md BT";
+    background: #ffbd4c;
+    color: black;
+    border: none;
+}
